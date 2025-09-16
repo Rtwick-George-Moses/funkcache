@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "funkcache"
+version = "0.1.0"
+description = "A lightweight SQLite-based caching manager with TTL support."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Rtwick George Moses", email = "rtwick612@gmail.com" }
+]
+
+keywords = ["cache", "sqlite", "ttl", "decorator", "funkcache", "caching"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["funkcache"]
+
+[project.urls]
+Homepage = "https://github.com/Rtwick-George-Moses/funkcache"
+Repository = "https://github.com/Rtwick-George-Moses/funkcache"
+Issues = "https://github.com/Rtwick-George-Moses/funkcache/issues"

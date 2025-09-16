@@ -1,0 +1,99 @@
+# ------------------------------
+# OS-specific files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Python cache/compiled files
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.venv*/
+env*/
+venv*/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+.pyright
+
+# pytype
+.pytype/
+
+# profiling
+.prof
+*.lprof
+
+# ------------------------------
+# JetBrains / IntelliJ / PyCharm
+# ------------------------------
+.idea/
+
+# VS Code
+.vscode/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Databases
+# ------------------------------
+*.sqlite3
+*.db
+
+# ------------------------------
+# Node.js (if frontend involved)
+# ------------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# ------------------------------
+# Others
+# ------------------------------
+*.bak
+*.swp
+*.swo
